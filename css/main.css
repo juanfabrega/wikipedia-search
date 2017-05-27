@@ -13,6 +13,7 @@ form {
 input {
     display: block;
     min-width: 18.75rem;
+    border-radius: 0;
 }
 
 h5 {
@@ -26,6 +27,7 @@ h5 {
 a:hover {
     text-decoration: none;
 }
+
 .btn {
     display: block;
     margin: 0 auto 1.25rem auto;
