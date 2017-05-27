@@ -1,0 +1,61 @@
+/*Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.025rem;
+}
+
+form {
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    min-width: 18.75rem;
+}
+
+h5 {
+    line-height: 2rem;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.btn {
+    display: block;
+    margin: 0 auto 1.25rem auto;
+}
+
+.card {
+    max-width: 60rem;
+    border-radius: 0;
+    margin: 1rem auto 1rem auto;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .btn {
+        display: inline;
+        margin: 0;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
