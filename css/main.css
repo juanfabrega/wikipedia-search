@@ -18,6 +18,10 @@ input {
     border-radius: 0;
 }
 
+#query {
+    border-radius: 0;
+}
+
 h5 {
     line-height: 2rem;
 }
